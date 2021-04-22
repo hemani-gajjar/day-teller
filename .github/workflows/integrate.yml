@@ -1,10 +1,6 @@
 name: Node Continuous Integration
 
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+on: push
    
 jobs:
   test_pull_request:
